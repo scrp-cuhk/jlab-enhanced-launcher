@@ -8,7 +8,7 @@
 :root {
   --jp-private-new-launcher-top-padding: 16px;
   --jp-private-new-launcher-side-padding: 16px;
-  --jp-private-new-launcher-card-size: 130px;
+  --jp-private-new-launcher-card-size: 110px;
   --jp-private-new-launcher-card-label-height: 32px;
   --jp-private-new-launcher-card-icon-height: 68px;
   --jp-private-new-launcher-large-icon-size: 52px;
@@ -266,10 +266,12 @@
 
 .jp-NewLauncher-option-button {
   flex: 1 1 auto;
-  height: 20px;
-  color: rgb(0, 132, 255);
-  font-size: 12px;
+  height: 12px;
+  padding: 2px;
+  color: rgb(120,120,120);
+  font-size: 10px;
   text-align: center;
+  background-color: rgb(238 238 238);
 }
 
 .jp-NewLauncher-option-button-text {
@@ -285,15 +287,15 @@
 }
 
 .jp-NewLauncher-item .jp-NewLauncher-option-button:nth-child(2) {
-  background: var(--jp-layout-color0);
+  /* background: var(--jp-layout-color0); */
 }
 
 .jp-NewLauncher-item:hover .jp-NewLauncher-option-button:nth-child(2) {
-  background: var(--jp-layout-color1);
+  /* background: var(--jp-layout-color1); */
 }
 
 .jp-NewLauncher-option-button:hover {
-  background: var(--jp-layout-color2) !important;
+  /* background: var(--jp-layout-color2) !important; */
 }
 
 /* Icons, kernel icons */
