@@ -296,6 +296,7 @@
 
 .jp-NewLauncher-option-button:hover {
   /* background: var(--jp-layout-color2) !important; */
+  font-weight: 600;
 }
 
 /* Icons, kernel icons */
